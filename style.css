@@ -28,6 +28,7 @@ html {
     --spacial-color: #906272;
     --background-color: #414141;
     --gray-text: #525252;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -386,6 +387,7 @@ footer h4 {
     .burger {
         position: relative;
         display: block;
+        cursor: pointer;
     }
     
     .burger span {
